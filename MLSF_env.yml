@@ -1,0 +1,23 @@
+name: SG-ML-PLAP
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+
+  - numpy=1.26.0=py310heeff2f4_0
+
+  - openbabel=3.1.1=py310hbff9852_9
+ 
+  - pandas=2.2.2=py310hf9f9076_1
+ 
+  - pip=24.0=pyhd8ed1ab_0
+ 
+  - python=3.10.14=hd12c33a_0_cpython
+ 
+  - scikit-learn=1.0.2=py310h1246948_0
+  - scipy=1.13.1=py310h93e2701_0
+  - pip:
+      - pillow==10.3.0
+      - rdkit==2023.9.6
+
